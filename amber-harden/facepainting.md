@@ -17,5 +17,5 @@ layout: default
   <h3>Face Painting by Amber</h3>
  <h3>Face Painting by Amber Harden</h3>
   <p>Imagination brought to life for birthdays, parties, festivals, and celebrations.</p>
-  <a class="btn" href="https://www.facebook.com/amber.vanheemst" target="_blank" rel="noopener">Message on Facebook to Book</a>
+<a class="btn" href="sms:7209035831">Text to Book</a>
 </div>
