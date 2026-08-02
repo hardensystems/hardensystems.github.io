@@ -96,4 +96,3 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--text-soft);letter-sp
 
 .photo-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:24px 0}
 .photo-grid img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:8px;border:1px solid var(--line);display:block}
-@media(min-width:640px){.photo-grid{grid-template-columns:repeat(4,1fr)}}
