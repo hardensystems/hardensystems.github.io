@@ -1,0 +1,28 @@
+title: Harden Systems
+description: Systems for the body, the budget, and the build.
+url: "https://hardensystems.com"
+markdown: kramdown
+permalink: pretty
+
+collections:
+  content:
+    output: true
+    permalink: /lucas-harden/content/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: content
+    values:
+      layout: content-post
+
+plugins: []
+
+exclude:
+  - README.md
+  - Gemfile
+  - CONTENT-TEMPLATE.md

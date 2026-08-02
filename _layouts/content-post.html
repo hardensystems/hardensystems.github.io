@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<h1 class="page-title">{{ page.title }}</h1>
+<p class="post-meta">
+  {% if page.tags %}{{ page.tags | join: " · " }}{% endif %}
+  {% if page.date %} &middot; {{ page.date | date: "%B %-d, %Y" }}{% endif %}
+</p>
+
+<div class="post-body">
+  {{ content }}
+</div>
+
+{% if page.affiliate_link %}
+<div class="affiliate-cta">
+  <p>{{ page.affiliate_text | default: "Grab what you need for this one:" }}</p>
+  <a class="btn" href="{{ page.affiliate_link }}">{{ page.affiliate_label | default: "Shop this" }}</a>
+</div>
+{% endif %}
