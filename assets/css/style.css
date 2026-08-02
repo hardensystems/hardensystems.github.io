@@ -85,3 +85,11 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--text-soft);letter-sp
   .doors{grid-template-columns:1fr}
   .hero h1{font-size:32px}
 }
+
+.shop-thumbs{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:24px 0 48px}
+.thumb-card{display:block;text-decoration:none;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:8px;overflow:hidden;transition:border-color .15s}
+.thumb-card:hover{border-color:var(--brass)}
+.thumb-img{aspect-ratio:1/1;background:var(--paper);border:1px dashed var(--line-strong);display:flex;align-items:center;justify-content:center;color:var(--text-soft);font-family:var(--mono);font-size:12px;margin:12px;border-radius:4px}
+.thumb-title{font-family:var(--serif);font-size:17px;font-weight:600;padding:0 16px}
+.thumb-sub{font-size:13px;color:var(--text-soft);padding:4px 16px 16px}
+@media(max-width:640px){.shop-thumbs{grid-template-columns:1fr}}
