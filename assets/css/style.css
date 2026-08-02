@@ -93,3 +93,7 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--text-soft);letter-sp
 .thumb-title{font-family:var(--serif);font-size:17px;font-weight:600;padding:0 16px}
 .thumb-sub{font-size:13px;color:var(--text-soft);padding:4px 16px 16px}
 @media(max-width:640px){.shop-thumbs{grid-template-columns:1fr}}
+
+.photo-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:24px 0}
+.photo-grid img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:8px;border:1px solid var(--line);display:block}
+@media(min-width:640px){.photo-grid{grid-template-columns:repeat(4,1fr)}}
