@@ -2,7 +2,7 @@
 title: Face Painting
 layout: default
 ---
-<h1 class="page-title">Face Painting</h1>
+<h1 class="page-title">Radiant Faces</h1>
 <p class="page-sub">Face painting based in Louisville, CO.</p>
 
 <div class="photo-grid">
