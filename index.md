@@ -4,17 +4,17 @@ layout: default
 ---
 <div class="hero">
   <h1>Harden Systems</h1>
-  <p>Built once, used forever.</p>
+  <p>Build once, benefit forever.</p>
 </div>
 
 <div class="doors">
   <a class="door" href="{{ '/lucas-harden/' | relative_url }}">
     <h3>Lucas Harden</h3>
-    <span class="sub">Systems · finance · faith</span>
+    <span class="sub">Systems · Faith · Finance</span>
   </a>
   <a class="door" href="{{ '/amber-harden/' | relative_url }}">
     <h3>Amber Harden</h3>
-    <span class="sub">Devotional · face painting</span>
+    <span class="sub">Devotional · Face Painting</span>
   </a>
   <a class="door" href="{{ '/kids/' | relative_url }}">
     <h3>Kids</h3>
@@ -29,7 +29,7 @@ layout: default
 </div>
 
 <div class="shop-thumbs">
-  <a class="thumb-card" href="https://hardensystems.gumroad.com/" target="_blank" rel="noopener">
+  <a class="thumb-card" href="https://hardensystems.gumroad.com/l/MES?layout=profile" target="_blank" rel="noopener">
     <div class="thumb-img">Photo coming soon</div>
     <div class="thumb-title">MES Method</div>
     <div class="thumb-sub">12-week fitness system</div>
