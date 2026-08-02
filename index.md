@@ -32,12 +32,12 @@ layout: default
   <a class="thumb-card" href="https://hardensystems.gumroad.com/l/MES?layout=profile" target="_blank" rel="noopener">
    <div class="thumb-img"><img src="{{ '/assets/Minimalist%20MES%20METHOD%20Logo%20on%20Navy%20Background.jpg' | relative_url }}" style="width:100%;height:100%;object-fit:cover;border-radius:4px"></div>
     <div class="thumb-title">MES Method</div>
-    <div class="thumb-sub">12-week fitness system</div>
+   <div class="thumb-sub">12-week fitness program</div>
   </a>
 <a class="thumb-card" href="https://www.amazon.com/Battle-Mind-Amber-Harden/dp/B0H3F2VDJC/" target="_blank" rel="noopener">
   <div class="thumb-img"><img src="{{ '/assets/BOTM%20Sq.png' | relative_url }}" style="width:100%;height:100%;object-fit:cover;border-radius:4px"></div>
-    <div class="thumb-title">Amber's Devotional</div>
-    <div class="thumb-sub">Illustrated devotional book</div>
+    <div class="thumb-title">Battle of the Mind</div>
+    <div class="thumb-sub">Amber's Devotional</div>
   </a>
 </div>
 
