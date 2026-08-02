@@ -39,7 +39,7 @@ body{
 
 /* Doors / selector */
 .doors{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;margin:32px 0 48px}
-.doors .door{width:280px}
+.doors .door{width:340px;padding:36px 24px}
 .door{background:var(--panel);border:1px dashed var(--line-strong);border-radius:6px;padding:26px 18px;text-align:center;text-decoration:none;color:var(--ink);transition:border-color .15s}
 .door:hover{border-color:var(--brass)}
 .door .num{font-family:var(--mono);font-size:11px;color:var(--brass);letter-spacing:.1em}
