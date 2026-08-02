@@ -16,10 +16,7 @@ layout: default
     <h3>Amber Harden</h3>
     <span class="sub">Devotional · Face Painting</span>
   </a>
-  <a class="door" href="{{ '/kids/' | relative_url }}">
-    <h3>Kids</h3>
-    <span class="sub">Family</span>
-  </a>
+
 </div>
 
 <div class="divider">
