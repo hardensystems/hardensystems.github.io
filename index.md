@@ -3,26 +3,41 @@ title: Home
 layout: default
 ---
 <div class="hero">
-  <div class="eyebrow">Systems for the body, the budget, and the build</div>
   <h1>Harden Systems</h1>
-  <p>DIY, homemade recipes, fitness, and finance — built once, useful for years.</p>
+  <p>Built once, used forever.</p>
 </div>
 
 <div class="doors">
   <a class="door" href="{{ '/lucas-harden/' | relative_url }}">
-    <div class="num">01</div>
     <h3>Lucas Harden</h3>
-    <span class="sub">DIY · finance · fitness</span>
+    <span class="sub">Systems · finance · faith</span>
   </a>
   <a class="door" href="{{ '/amber-harden/' | relative_url }}">
-    <div class="num">02</div>
     <h3>Amber Harden</h3>
-    <span class="sub">Devotional</span>
+    <span class="sub">Devotional · face painting</span>
   </a>
   <a class="door" href="{{ '/kids/' | relative_url }}">
-    <div class="num">03</div>
     <h3>Kids</h3>
     <span class="sub">Family</span>
+  </a>
+</div>
+
+<div class="divider">
+  <div class="tick"></div>
+  <h2>Shop the essentials</h2>
+  <div class="rule"></div>
+</div>
+
+<div class="shop-thumbs">
+  <a class="thumb-card" href="https://hardensystems.gumroad.com/" target="_blank" rel="noopener">
+    <div class="thumb-img">Photo coming soon</div>
+    <div class="thumb-title">MES Method</div>
+    <div class="thumb-sub">12-week fitness system</div>
+  </a>
+  <a class="thumb-card" href="{{ '/amber-harden/' | relative_url }}">
+    <div class="thumb-img">Photo coming soon</div>
+    <div class="thumb-title">Amber's Devotional</div>
+    <div class="thumb-sub">Illustrated devotional book</div>
   </a>
 </div>
 
