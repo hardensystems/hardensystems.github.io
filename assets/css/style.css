@@ -42,9 +42,8 @@ body{
 .doors .door{width:340px;padding:36px 24px}
 .door{background:var(--panel);border:1px dashed var(--line-strong);border-radius:6px;padding:26px 18px;text-align:center;text-decoration:none;color:var(--ink);transition:border-color .15s}
 .door:hover{border-color:var(--brass)}
-.door .num{font-family:var(--mono);font-size:11px;color:var(--brass);letter-spacing:.1em}
-.door h3{font-family:var(--serif);font-size:20px;margin:8px 0 4px;font-weight:600}
-.door span.sub{font-size:13px;color:var(--text-soft)}
+.door h3{font-family:var(--serif);font-size:24px;margin:0 0 6px;font-weight:600}
+.door span.sub{font-size:15px;color:var(--text-soft)}
 
 /* Section divider */
 .divider{display:flex;align-items:center;gap:12px;margin:44px 0 22px}
