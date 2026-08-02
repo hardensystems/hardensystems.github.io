@@ -14,8 +14,7 @@ layout: default
 
 <div class="card">
   <div class="kicker">Book Amber</div>
-  <h3>Face Painting by Amber</h3>
- <h3>Face Painting by Amber Harden</h3>
+  <h3>Face Painting by Amber Harden</h3>
   <p>Imagination brought to life for birthdays, parties, festivals, and celebrations.</p>
-<a class="btn" href="sms:7209035831">Text to Book</a>
+  <a class="btn" href="sms:7209035831">Text to Book</a>
 </div>
