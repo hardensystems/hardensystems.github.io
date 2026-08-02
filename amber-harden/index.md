@@ -12,6 +12,6 @@ layout: default
   </a>
   <a class="door" href="{{ '/amber-harden/facepainting/' | relative_url }}">
     <h3>Face Painting</h3>
-    <span class="sub">Details coming soon</span>
+    <span class="sub">Book an event</span>
   </a>
 </div>
