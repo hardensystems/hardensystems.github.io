@@ -34,7 +34,7 @@ layout: default
     <div class="thumb-title">MES Method</div>
     <div class="thumb-sub">12-week fitness system</div>
   </a>
-  <a class="thumb-card" href="{{ '/amber-harden/' | relative_url }}">
+<a class="thumb-card" href="https://www.amazon.com/Battle-Mind-Amber-Harden/dp/B0H3F2VDJC/" target="_blank" rel="noopener">
     <div class="thumb-img">Photo coming soon</div>
     <div class="thumb-title">Amber's Devotional</div>
     <div class="thumb-sub">Illustrated devotional book</div>
