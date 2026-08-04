@@ -6,7 +6,6 @@ layout: default
   <h1>Harden Systems</h1>
   <p>Build once, benefit forever.</p>
 </div>
-
 <div class="doors">
   <a class="door" href="{{ '/lucas-harden/' | relative_url }}">
     <h3>Lucas Harden</h3>
@@ -16,15 +15,12 @@ layout: default
     <h3>Amber Harden</h3>
     <span class="sub">Devotional · Face Painting</span>
   </a>
-
 </div>
-
 <div class="divider">
   <div class="tick"></div>
   <h2>Shop the essentials</h2>
   <div class="rule"></div>
 </div>
-
 <div class="shop-thumbs">
   <a class="thumb-card" href="https://hardensystems.gumroad.com/l/MES?layout=profile" target="_blank" rel="noopener">
    <div class="thumb-img"><img src="{{ '/assets/Minimalist%20MES%20METHOD%20Logo%20on%20Navy%20Background.jpg' | relative_url }}" style="width:100%;height:100%;object-fit:cover;border-radius:4px"></div>
@@ -37,13 +33,11 @@ layout: default
     <div class="thumb-sub">Amber's Devotional</div>
   </a>
 </div>
-
 <div class="divider">
   <div class="tick"></div>
   <h2>Latest</h2>
   <div class="rule"></div>
 </div>
-
 <div class="latest-list">
   {% assign items = site.content | sort: "date" | reverse %}
   {% for item in items limit: 6 %}
@@ -56,3 +50,9 @@ layout: default
   <p class="empty-note">New content is in the works — check back soon.</p>
   {% endif %}
 </div>
+
+{% if items.size > 6 %}
+<div style="text-align:center;margin-top:20px">
+  <a class="btn" href="{{ '/archive/' | relative_url }}">View More</a>
+</div>
+{% endif %}
