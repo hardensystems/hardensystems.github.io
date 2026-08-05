@@ -7,6 +7,12 @@ layout: default
   {% if page.date %} &middot; {{ page.date | date: "%B %-d, %Y" }}{% endif %}
 </p>
 
+{% if page.video_id and page.platform == "YouTube" %}
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;margin-bottom:28px">
+  <iframe src="https://www.youtube.com/embed/{{ page.video_id }}" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allowfullscreen></iframe>
+</div>
+{% endif %}
+
 <div class="post-body">
   {{ content }}
 </div>
