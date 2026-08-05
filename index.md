@@ -4,7 +4,7 @@ layout: default
 ---
 <div class="hero">
   <h1>Harden Systems</h1>
-  <p>Build once, benefit forever.</p>
+  <p>Build once, benefit forever</p>
 </div>
 <div class="doors">
   <a class="door" href="{{ '/lucas-harden/' | relative_url }}">
