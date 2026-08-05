@@ -6,7 +6,7 @@ layout: default
 <p class="page-sub">Systems for the body, the budget, and the build.</p>
 
 <div class="bio">
-  <p>I'm Lucas Harden. I build things — around the house, in the budget, and in the body — and I write down how, so it's useful to more than just me.</p>
+  <p>Lucas Harden — husband, dad, and the guy behind Harden Systems. I fix what's broken, track what matters, and try to build things that actually last — in the house, in the budget, and in the body. This is where I write it down.</p>
 </div>
 
 <div class="divider">
