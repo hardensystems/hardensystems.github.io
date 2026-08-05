@@ -1,35 +1,57 @@
-# How to add a new piece of content
+# How content gets added to hardensystems.com
 
-1. Copy this template.
-2. Save it inside the `_content` folder as a new file, e.g. `_content/diy-hair-gel.md`
-   (use lowercase, dashes instead of spaces — this becomes the URL)
-3. Fill in the front matter (the part between the --- lines) and write the content below it in plain text/Markdown.
-4. Upload the file to the `_content` folder in your GitHub repo. The site rebuilds automatically.
+This isn't a manual reference — it's a note for future-you. The actual workflow
+happens in conversation with Claude, not by editing this file directly.
 
------------------------------------------------------------------
-COPY EVERYTHING BELOW THIS LINE INTO YOUR NEW FILE
------------------------------------------------------------------
+## The system
+
+1. You film/post a piece of content (usually YouTube).
+2. You hand Claude: the link, a title, the date, the real story (what happened,
+   what you tried, what worked — a rough transcript or recap is enough), and
+   any affiliate/product links.
+3. Claude writes it as a proper page: real write-up, embedded video, tags,
+   parts/affiliate list if relevant.
+4. You paste the file into `_content/` on GitHub, commit.
+5. It shows up automatically: homepage "Latest," the archive, and whichever
+   topic page(s) match its tag(s).
+
+## Default: full write-up, not a mirror
+
+Most content should be a real page — this is what actually lets Google index
+and rank it, not just a link that bounces straight to YouTube. Structure:
 
 ---
-title: "DIY Hair Gel"
-date: 2026-08-02
-tags: [diy, recipes]
-affiliate_link: "https://amazon.com/your-affiliate-link-here"
-affiliate_label: "Get the ingredients"
-affiliate_text: "Everything I used for this batch:"
+title: "Title Here"
+date: YYYY-MM-DD
+tags: [diy]
+platform: "YouTube"
+video_id: "XXXXXXXXXXX"
 ---
 
-Write your post here. This is regular text — talk through the steps,
-what you used, what worked. Markdown formatting works too:
+Real writing here. What happened, what you tried, what fixed it.
+Video embeds automatically at the top from video_id.
 
-- Bullet points like this
-- **Bold text**
-- [Links like this](https://example.com)
+## Tagging
 
-The affiliate box at the bottom of the page is automatic — it pulls from
-the affiliate_link, affiliate_label, and affiliate_text fields above.
-If you don't need it for a specific post, just delete those three lines
-from the front matter and the box won't show up.
+One tag per piece, almost always. Only add a second tag if the content is
+genuinely, substantially about both topics — not just loosely related.
+Multiple tags on nearly everything makes topic pages feel repetitive.
 
-TAGS: use any combination of diy, recipes, fitness, finance
-(or add a new one — just be consistent with spelling so it groups correctly)
+## Exception: mirror entries
+
+For quick, low-effort posts with nothing much to say — no write-up, just a
+thumbnail and a direct link out. Rare, not the default.
+
+---
+title: "Title Here"
+date: YYYY-MM-DD
+tags: [diy]
+external_url: "https://youtube.com/watch?v=XXXXXXXXXXX"
+platform: "YouTube"
+video_id: "XXXXXXXXXXX"
+---
+
+## Non-YouTube platforms (TikTok, LinkedIn, etc.)
+
+No auto-thumbnail available — screenshot the post, upload it to /assets/,
+and reference it with a `thumbnail:` field instead of `video_id`.
