@@ -12,7 +12,7 @@ layout: default
   <img src="{{ '/assets/Rhino.jpg' | relative_url }}" alt="Rhino face paint design">
 </div>
 
-<div class="card">
+<div class="card" style="margin-left:auto;margin-right:auto">
   <div class="kicker">Book Amber</div>
   <h3>Face Painting by Amber Harden</h3>
   <p>Imagination brought to life for birthdays, parties, festivals, and celebrations.</p>
