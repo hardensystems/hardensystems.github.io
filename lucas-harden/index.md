@@ -3,10 +3,20 @@ title: Lucas Harden
 layout: default
 ---
 <h1 class="page-title">Lucas Harden</h1>
-<p class="page-sub">Systems for the body, the budget, and the build.</p>
+<p class="page-sub">All systems go</p>
 
 <div class="bio">
-  <p>Lucas Harden — husband, dad, and the guy behind Harden Systems. I fix what's broken, track what matters, and try to build things that actually last — in the house, in the budget, and in the body. This is where I write it down.</p>
+  <p>I'm Lucas Harden. God revealed that my spiritual gift is administration: steering the ship. I build systems and leverage them as assets. I create things that generate perpetual benefit. This site is where I share solutions.</p>
+</div>
+
+<div class="social-row">
+  <a href="https://youtube.com/@hardensystems" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+  <a href="https://facebook.com/hardensystems" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+  <a href="https://tiktok.com/@hardensystems" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+  <a href="https://instagram.com/hardensystems" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://x.com/hardensystems" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+  <a href="https://pinterest.com/hardensystems" target="_blank" rel="noopener" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+  <a href="https://linkedin.com/in/hardensystems" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
 </div>
 
 <div class="divider">
@@ -16,14 +26,12 @@ layout: default
 </div>
 
 <div class="doors">
+  <a class="door" href="{{ '/lucas-harden/shop/' | relative_url }}">
+    <h3>Shop</h3>
+    <span class="sub">Things I use, build, and recommend</span>
+  </a>
   <a class="door" href="{{ '/lucas-harden/content/' | relative_url }}">
-    <div class="num">A</div>
     <h3>Content</h3>
     <span class="sub">DIY, recipes, fitness, finance</span>
-  </a>
-  <a class="door" href="{{ '/lucas-harden/shop/' | relative_url }}">
-    <div class="num">B</div>
-    <h3>Shop</h3>
-    <span class="sub">Things I've built</span>
   </a>
 </div>
