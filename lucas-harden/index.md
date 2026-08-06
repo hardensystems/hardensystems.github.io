@@ -3,10 +3,10 @@ title: Lucas Harden
 layout: default
 ---
 <h1 class="page-title">Lucas Harden</h1>
-<p class="page-sub">All systems go</p>
+<p class="page-sub">Systems, faith, finance.</p>
 
 <div class="bio">
-  <p>I'm Lucas Harden. God revealed that my spiritual gift is administration: steering the ship. I build systems and leverage them as assets. I create things that generate perpetual benefit. This site is where I share solutions.</p>
+ <p>I'm Lucas Harden. My gift is administration — steering the ship. I build systems, then leverage them as assets. This site is where I share solutions.</p>
 </div>
 
 <div class="social-row">
