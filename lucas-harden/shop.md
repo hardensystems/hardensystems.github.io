@@ -3,7 +3,7 @@ title: Shop
 layout: default
 ---
 <h1 class="page-title">Shop</h1>
-<p class="page-sub">Everything I use, build, and recommend — one place to find it all.</p>
+<p class="page-sub">Everything I use, build, and recommend.</p>
 
 <div class="shop-thumbs">
   <a class="thumb-card" href="https://hardensystems.gumroad.com/l/MES?layout=profile" target="_blank" rel="noopener">
