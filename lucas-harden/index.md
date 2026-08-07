@@ -3,7 +3,6 @@ title: Lucas Harden
 layout: default
 ---
 <h1 class="page-title">Lucas Harden</h1>
-<p class="page-sub">Systems, faith, finance.</p>
 
 <div class="bio">
  <p>I build systems, then leverage them as assets. This site is where I share solutions.</p>
