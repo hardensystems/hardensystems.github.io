@@ -2,11 +2,9 @@
 title: Lucas Harden
 layout: default
 ---
+<div class="shop-header">
 <h1 class="page-title">Lucas Harden</h1>
-
-<div class="bio">
- <p>I build systems, then leverage them as assets. This site is where I share solutions.</p>
-</div>
+<p class="page-sub">My gift is administration. I build systems, leverage them as assets, and share solutions.</p>
 
 <div class="social-row">
   <a href="https://youtube.com/@hardensystems" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
@@ -17,20 +15,53 @@ layout: default
   <a href="https://pinterest.com/hardensystems" target="_blank" rel="noopener" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
   <a href="https://linkedin.com/in/hardensystems" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
 </div>
+</div>
+
+{% assign featured_items = site.shop | where: "featured", true %}
+{% if featured_items.size > 0 %}
+<div class="divider">
+  <div class="tick"></div>
+  <h2>Featured</h2>
+  <div class="rule"></div>
+</div>
+<div class="shop-grid">
+  {% for item in featured_items %}
+  <a class="shop-card" href="{{ item.url }}" target="_blank" rel="noopener">
+    <div class="shop-card-img"><img src="{{ item.logo | relative_url }}"></div>
+    <div class="shop-card-title">{{ item.title }}</div>
+    <div class="shop-card-sub">{{ item.description }}</div>
+  </a>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% assign regular_items = site.shop | where_exp: "item", "item.featured != true" %}
+{% assign grouped = regular_items | group_by: "category" %}
+{% for group in grouped %}
+<div class="divider">
+  <div class="tick"></div>
+  <h2>{{ group.name }}</h2>
+  <div class="rule"></div>
+</div>
+<div class="shop-grid">
+  {% for item in group.items %}
+  <a class="shop-card" href="{{ item.url }}" target="_blank" rel="noopener">
+    <div class="shop-card-img"><img src="{{ item.logo | relative_url }}"></div>
+    <div class="shop-card-title">{{ item.title }}</div>
+    <div class="shop-card-sub">{{ item.description }}</div>
+  </a>
+  {% endfor %}
+</div>
+{% endfor %}
 
 <div class="divider">
   <div class="tick"></div>
-  <h2>Explore</h2>
+  <h2>Looking for something else?</h2>
   <div class="rule"></div>
 </div>
+<a class="door" href="{{ '/lucas-harden/content/' | relative_url }}" style="display:block;max-width:400px">
+  <h3>Content</h3>
+  <span class="sub">DIY, recipes, fitness, finance</span>
+</a>
 
-<div class="doors">
-  <a class="door" href="{{ '/lucas-harden/shop/' | relative_url }}">
-    <h3>Shop</h3>
-    <span class="sub">Things I use, build, and recommend</span>
-  </a>
-  <a class="door" href="{{ '/lucas-harden/content/' | relative_url }}">
-    <h3>Content</h3>
-    <span class="sub">DIY, recipes, fitness, finance</span>
-  </a>
-</div>
+<p style="color:var(--text-soft);font-size:13px;margin-top:24px">Some links above are affiliate/referral links — using them may earn me a commission or reward at no extra cost to you.</p>
