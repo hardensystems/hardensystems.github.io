@@ -5,6 +5,16 @@ layout: default
 <h1 class="page-title">Shop</h1>
 <p class="page-sub">Everything I use, build, and recommend.</p>
 
+<div class="social-row">
+  <a href="https://youtube.com/@hardensystems" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+  <a href="https://facebook.com/hardensystems" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+  <a href="https://tiktok.com/@hardensystems" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+  <a href="https://instagram.com/hardensystems" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://x.com/hardensystems" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+  <a href="https://pinterest.com/hardensystems" target="_blank" rel="noopener" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+  <a href="https://linkedin.com/in/hardensystems" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+
 {% assign featured_items = site.shop | where: "featured", true %}
 {% if featured_items.size > 0 %}
 <div class="divider">
@@ -42,4 +52,14 @@ layout: default
 </div>
 {% endfor %}
 
-<p style="color:var(--text-soft);font-size:13px;margin-top:8px">Some links above are affiliate/referral links — using them may earn me a commission or reward at no extra cost to you.</p>
+<div class="divider">
+  <div class="tick"></div>
+  <h2>Looking for something else?</h2>
+  <div class="rule"></div>
+</div>
+<a class="door" href="{{ '/lucas-harden/content/' | relative_url }}" style="display:block;max-width:400px">
+  <h3>Content</h3>
+  <span class="sub">DIY, recipes, fitness, finance</span>
+</a>
+
+<p style="color:var(--text-soft);font-size:13px;margin-top:24px">Some links above are affiliate/referral links — using them may earn me a commission or reward at no extra cost to you.</p>
