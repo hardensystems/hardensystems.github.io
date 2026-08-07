@@ -5,7 +5,6 @@ layout: default
 <div class="shop-header">
 <h1 class="page-title">Lucas Harden</h1>
 <p class="page-sub">My gift is administration. I build systems, leverage them as assets, and share solutions.</p>
-
 <div class="social-row">
   <a href="https://youtube.com/@hardensystems" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
   <a href="https://facebook.com/hardensystems" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
@@ -16,7 +15,6 @@ layout: default
   <a href="https://linkedin.com/in/hardensystems" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
 </div>
 </div>
-
 {% assign featured_items = site.shop | where: "featured", true %}
 {% if featured_items.size > 0 %}
 <div class="divider">
@@ -34,7 +32,6 @@ layout: default
   {% endfor %}
 </div>
 {% endif %}
-
 {% assign regular_items = site.shop | where_exp: "item", "item.featured != true" %}
 {% assign grouped = regular_items | group_by: "category" %}
 {% for group in grouped %}
@@ -53,15 +50,19 @@ layout: default
   {% endfor %}
 </div>
 {% endfor %}
-
 <div class="divider">
   <div class="tick"></div>
   <h2>Looking for something else?</h2>
   <div class="rule"></div>
 </div>
-<a class="door" href="{{ '/lucas-harden/content/' | relative_url }}" style="display:block;max-width:400px">
-  <h3>Content</h3>
-  <span class="sub">DIY, recipes, fitness, finance</span>
-</a>
-
+<div class="doors">
+  <a class="door" href="{{ '/lucas-harden/content/' | relative_url }}">
+    <h3>Content</h3>
+    <span class="sub">DIY, recipes, fitness, finance</span>
+  </a>
+  <a class="door" href="{{ '/amber-harden/' | relative_url }}">
+    <h3>Amber Harden</h3>
+    <span class="sub">Devotional · Face Painting</span>
+  </a>
+</div>
 <p style="color:var(--text-soft);font-size:13px;margin-top:24px">Some links above are affiliate/referral links — using them may earn me a commission or reward at no extra cost to you.</p>
