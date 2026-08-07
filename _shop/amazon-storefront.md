@@ -1,7 +1,7 @@
 ---
 title: "Harden Systems on Amazon"
 url: "https://a.co/d/04HUcp6j"
-logo: "/assets/amazon-logo.png"
+logo: "/assets/amazon.jpg"
 category: "Retail Partners"
 description: "Tools, gear, and products"
 ---
