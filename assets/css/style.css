@@ -84,13 +84,14 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--text-soft);letter-sp
 .thumb-img{aspect-ratio:1/1;background:var(--paper);border:1px dashed var(--line-strong);display:flex;align-items:center;justify-content:center;color:var(--text-soft);font-family:var(--mono);font-size:12px;margin:12px;border-radius:4px}
 .thumb-title{font-family:var(--serif);font-size:19px;font-weight:600;padding:0 16px}
 .thumb-sub{font-size:14px;color:var(--text-soft);padding:4px 16px 16px}
-.shop-row-list{display:flex;flex-direction:column;margin:24px 0}
-.shop-row{display:flex;align-items:center;gap:16px;padding:16px 0;border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink)}
-.shop-row:hover .shop-row-title{color:var(--brass-dark)}
-.shop-row-logo{width:64px;height:64px;flex-shrink:0;border-radius:8px;border:1px solid var(--line);background:var(--panel);display:flex;align-items:center;justify-content:center;overflow:hidden}
-.shop-row-logo img{width:100%;height:100%;object-fit:contain;padding:8px}
-.shop-row-title{font-family:var(--serif);font-size:19px;font-weight:600}
-.shop-row-sub{font-size:14px;color:var(--text-soft);margin-top:2px}
+
+.shop-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin:24px 0 48px}
+.shop-card{display:block;text-decoration:none;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:8px;overflow:hidden;transition:border-color .15s,transform .15s}
+.shop-card:hover{border-color:var(--brass);transform:translateY(-2px)}
+.shop-card-img{aspect-ratio:4/5;background:#FFFFFF;display:flex;align-items:center;justify-content:center;padding:18px}
+.shop-card-img img{max-width:100%;max-height:100%;object-fit:contain}
+.shop-card-title{font-family:var(--serif);font-size:16px;font-weight:600;padding:12px 14px 2px;line-height:1.25}
+.shop-card-sub{font-size:12.5px;color:var(--text-soft);padding:0 14px 14px}
 
 .photo-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:24px 0}
 .photo-grid img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:8px;border:1px solid var(--line);display:block}
@@ -99,6 +100,7 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--text-soft);letter-sp
   .doors{grid-template-columns:1fr}
   .hero h1{font-size:32px}
   .shop-thumbs{grid-template-columns:1fr}
+  .shop-grid{grid-template-columns:repeat(2,1fr)}
   .site-header .wrap{flex-direction:column;gap:10px}
   .nav a{margin-left:0;margin-right:16px}
   .latest-thumb{width:150px}
