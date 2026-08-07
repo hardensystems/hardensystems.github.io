@@ -40,6 +40,15 @@ layout: default
 #mlb2-44596719.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover { background-color: #333333 !important; }
 </style>
 <div id="mlb2-44596719" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-44596719">
+  <style>
+#mlb2-44596719.ml-form-embedContainer .ml-form-embedWrapper { background-color: var(--panel) !important; border: 1px solid var(--line) !important; border-radius: 8px !important; }
+#mlb2-44596719.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody { padding: 24px !important; }
+#mlb2-44596719.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedContent h4 { font-family: var(--serif) !important; color: var(--ink) !important; font-size: 22px !important; font-weight: 600 !important; }
+#mlb2-44596719.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedContent p { font-family: var(--sans) !important; color: var(--text-soft) !important; font-size: 14px !important; }
+#mlb2-44596719.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input { font-family: var(--sans) !important; border-color: var(--line) !important; border-radius: 4px !important; }
+#mlb2-44596719.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button { background-color: var(--ink) !important; font-family: var(--mono) !important; font-size: 13px !important; letter-spacing: .03em !important; border-radius: 4px !important; }
+#mlb2-44596719.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover { background-color: var(--brass-dark) !important; }
+</style>
 <div class="ml-form-align-center">
 <div class="ml-form-embedWrapper embedForm">
 <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
