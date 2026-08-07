@@ -4,7 +4,7 @@ layout: default
 ---
 <div class="shop-header">
 <h1 class="page-title">Lucas Harden</h1>
-<p class="page-sub">My gift is administration. I build systems, leverage them as assets, and share solutions.</p>
+<p class="page-sub">My gift is administration. I build systems, realize assets, and share solutions.</p>
 <div class="social-row">
   <a href="https://youtube.com/@hardensystems" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
   <a href="https://facebook.com/hardensystems" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
