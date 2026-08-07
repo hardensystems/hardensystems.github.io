@@ -6,7 +6,7 @@ layout: default
 <p class="page-sub">Systems, faith, finance.</p>
 
 <div class="bio">
- <p>I'm Lucas Harden. My gift is administration — steering the ship. I build systems, then leverage them as assets. This site is where I share solutions.</p>
+ <p>I build systems, then leverage them as assets. This site is where I share solutions.</p>
 </div>
 
 <div class="social-row">
