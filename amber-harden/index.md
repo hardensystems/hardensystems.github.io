@@ -4,7 +4,7 @@ layout: default
 ---
 <div class="shop-header">
 <h1 class="page-title">Amber Harden</h1>
-<p class="page-sub">I'm Amber Harden. Wife, mom, and author of Battle of the Mind.</p>
+<p class="page-sub">Wife, mom, and author of Battle of the Mind.</p>
 <div class="social-row">
   <a href="https://www.facebook.com/amber.vanheemst" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
   <a href="https://www.instagram.com/amber_vh/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
