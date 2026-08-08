@@ -72,7 +72,7 @@ $('.ml-subscribe-form-44596719 .row-form').hide();
 </div>
 <div class="shop-grid">
   {% for item in featured_items %}
-  <a class="shop-card" href="{{ item.url }}" target="_blank" rel="noopener">
+<a class="shop-card" href="{{ item.link }}" target="_blank" rel="noopener">
     <div class="shop-card-img"><img src="{{ item.logo | relative_url }}"></div>
     <div class="shop-card-title">{{ item.title }}</div>
     <div class="shop-card-sub">{{ item.description }}</div>
@@ -91,7 +91,7 @@ $('.ml-subscribe-form-44596719 .row-form').hide();
 </div>
 <div class="shop-grid">
   {% for item in group.items %}
-  <a class="shop-card" href="{{ item.url }}" target="_blank" rel="noopener">
+<a class="shop-card" href="{{ item.link }}" target="_blank" rel="noopener">
     <div class="shop-card-img"><img src="{{ item.logo | relative_url }}"></div>
     <div class="shop-card-title">{{ item.title }}</div>
     <div class="shop-card-sub">{{ item.description }}</div>
