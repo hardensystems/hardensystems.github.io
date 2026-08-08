@@ -10,7 +10,6 @@ layout: default
   <a href="https://www.instagram.com/amber_vh/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
 </div>
 </div>
-
 <div class="divider">
   <div class="tick"></div>
   <h2>Featured</h2>
@@ -28,7 +27,6 @@ layout: default
     <div class="shop-card-sub">Radiant Faces</div>
   </a>
 </div>
-
 <div class="divider">
   <div class="tick"></div>
   <h2>Looking for something else?</h2>
@@ -40,3 +38,4 @@ layout: default
     <span class="sub">Systems · Faith · Finance</span>
   </a>
 </div>
+<p style="color:var(--text-soft);font-size:13px;margin-top:24px;text-align:center">Some links above are affiliate/referral links — using them may earn me a commission or reward at no extra cost to you.</p>
