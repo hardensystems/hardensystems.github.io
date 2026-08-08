@@ -115,4 +115,4 @@ $('.ml-subscribe-form-44596719 .row-form').hide();
     <span class="sub">Devotional · Face Painting</span>
   </a>
 </div>
-<p style="color:var(--text-soft);font-size:13px;margin-top:24px">Some links above are affiliate/referral links — using them may earn me a commission or reward at no extra cost to you.</p>
+<p style="color:var(--text-soft);font-size:13px;margin-top:24px;text-align:center">Some links above are affiliate/referral links — using them may earn me a commission or reward at no extra cost to you.</p>
