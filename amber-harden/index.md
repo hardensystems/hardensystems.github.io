@@ -2,16 +2,41 @@
 title: Amber Harden
 layout: default
 ---
+<div class="shop-header">
 <h1 class="page-title">Amber Harden</h1>
-<p class="page-sub">Mom, Author, Face Painter.</p>
+<p class="page-sub">I'm Amber Harden. Wife, mom, and author of Battle of the Mind.</p>
+<div class="social-row">
+  <a href="https://www.facebook.com/amber.vanheemst" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+  <a href="https://www.instagram.com/amber_vh/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+</div>
+</div>
 
-<div class="doors">
-  <a class="door" href="{{ '/amber-harden/devotional/' | relative_url }}">
-    <h3>Battle of the Mind</h3>
-    <span class="sub">Women's Devotional</span>
+<div class="divider">
+  <div class="tick"></div>
+  <h2>Featured</h2>
+  <div class="rule"></div>
+</div>
+<div class="shop-grid">
+  <a class="shop-card" href="https://www.amazon.com/Battle-Mind-Amber-Harden/dp/B0H3F2VDJC/" target="_blank" rel="noopener">
+    <div class="shop-card-img"><img src="{{ '/assets/BOTM%20Sq.png' | relative_url }}"></div>
+    <div class="shop-card-title">Battle of the Mind</div>
+    <div class="shop-card-sub">Amber's devotional</div>
   </a>
-  <a class="door" href="{{ '/amber-harden/facepainting/' | relative_url }}">
-    <h3>Face Painting</h3>
-    <span class="sub">Book an event</span>
+  <a class="shop-card" href="{{ '/amber-harden/facepainting/' | relative_url }}">
+    <div class="shop-card-img"><img src="{{ '/assets/Pika.jpg' | relative_url }}"></div>
+    <div class="shop-card-title">Face Painting</div>
+    <div class="shop-card-sub">Radiant Faces — book an event</div>
+  </a>
+</div>
+
+<div class="divider">
+  <div class="tick"></div>
+  <h2>Looking for something else?</h2>
+  <div class="rule"></div>
+</div>
+<div class="doors">
+  <a class="door" href="{{ '/lucas-harden/' | relative_url }}">
+    <h3>Lucas Harden</h3>
+    <span class="sub">Systems · Faith · Finance</span>
   </a>
 </div>
