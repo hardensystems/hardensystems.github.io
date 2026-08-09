@@ -23,8 +23,8 @@ layout: default
   </a>
   <a class="shop-card" href="{{ '/amber-harden/facepainting/' | relative_url }}">
 <div class="shop-card-img"><img src="{{ '/assets/Pika-square.jpg' | relative_url }}"></div>
-    <div class="shop-card-title">Face Painting</div>
-    <div class="shop-card-sub">Radiant Faces</div>
+    <div class="shop-card-title">Radiant Faces</div>
+    <div class="shop-card-sub">Face Painting</div>
   </a>
 </div>
 <div class="divider">
