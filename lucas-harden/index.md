@@ -81,7 +81,7 @@ $('.ml-subscribe-form-44596719 .row-form').hide();
 </div>
 {% endif %}
 
-{% assign regular_items = site.shop | where_exp: "item", "item.featured != true" %}
+{% assign regular_items = site.shop | where_exp: "item", "item.featured != true" | sort: "order" %}
 {% assign grouped = regular_items | group_by: "category" %}
 {% for group in grouped %}
 <div class="divider">
