@@ -81,16 +81,20 @@ $('.ml-subscribe-form-44596719 .row-form').hide();
 </div>
 {% endif %}
 
+{% assign category_order = "Retail,Books" | split: "," %}
 {% assign regular_items = site.shop | where_exp: "item", "item.featured != true" | sort: "order" %}
-{% assign grouped = regular_items | group_by: "category" %}
-{% for group in grouped %}
+{% assign all_categories = regular_items | map: "category" | uniq %}
+
+{% for cat in category_order %}
+{% assign items_in_cat = regular_items | where: "category", cat %}
+{% if items_in_cat.size > 0 %}
 <div class="divider">
   <div class="tick"></div>
-  <h2>{{ group.name }}</h2>
+  <h2>{{ cat }}</h2>
   <div class="rule"></div>
 </div>
 <div class="shop-grid">
-  {% for item in group.items %}
+  {% for item in items_in_cat %}
 <a class="shop-card" href="{{ item.link }}" target="_blank" rel="noopener">
     <div class="shop-card-img"><img src="{{ item.logo | relative_url }}"></div>
     <div class="shop-card-title">{{ item.title }}</div>
@@ -98,6 +102,27 @@ $('.ml-subscribe-form-44596719 .row-form').hide();
   </a>
   {% endfor %}
 </div>
+{% endif %}
+{% endfor %}
+
+{% for cat in all_categories %}
+{% unless category_order contains cat %}
+{% assign items_in_cat = regular_items | where: "category", cat %}
+<div class="divider">
+  <div class="tick"></div>
+  <h2>{{ cat }}</h2>
+  <div class="rule"></div>
+</div>
+<div class="shop-grid">
+  {% for item in items_in_cat %}
+<a class="shop-card" href="{{ item.link }}" target="_blank" rel="noopener">
+    <div class="shop-card-img"><img src="{{ item.logo | relative_url }}"></div>
+    <div class="shop-card-title">{{ item.title }}</div>
+    <div class="shop-card-sub">{{ item.description }}</div>
+  </a>
+  {% endfor %}
+</div>
+{% endunless %}
 {% endfor %}
 
 <div class="divider">
