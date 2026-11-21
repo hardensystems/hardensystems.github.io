@@ -22,6 +22,9 @@ permalink: /lucas-harden/content/
   <a class="door" href="{{ '/lucas-harden/content/topics/review/' | relative_url }}">
     <h3>Reviews</h3>
   </a>
+  <a class="door" href="{{ '/lucas-harden/content/topics/tech-tips/' | relative_url }}">
+    <h3>Tech Tips</h3>
+  </a>
 </div>
 
 <div class="divider">
