@@ -6,6 +6,8 @@ platform: "YouTube"
 video_id: "5WKHOL70oio"
 ---
 
+[Watch the short version on YouTube](https://www.youtube.com/shorts/ZUFuW9JtxSU)
+
 If you wear retainers, you already know the drill: soak them, brush them, hope for the best. But soaking alone doesn't really cut it, and brushing only gets you so far — bacteria and buildup happen anyway, and most of the "quick fix" cleaning tablets on the market rely on harsh chemicals you're putting right back in your mouth every single day.
 
 That's what pushed me to try the **Clelifove Ultrasonic Retainer Cleaner Machine** — a 48kHz ultrasonic cleaning pod with a 200ML capacity that also works for dentures, aligners, mouth guards, night guards, dental trays, braces, and even toothbrushes and jewelry. The more I dug into it, the more the non-toxic angle became the whole reason I'd recommend it.
