@@ -1,0 +1,33 @@
+---
+title: The Gmail Inbox Reset
+layout: default
+description: Automatically archive Gmail older than 30 days and keep starred emails in your inbox.
+permalink: /gmail/
+---
+<main>
+  <header class="hero">
+    <h1>The Gmail Inbox Reset</h1>
+    <p><strong>Automatically archive Gmail older than 30 days and keep starred emails in your inbox.</strong></p>
+    <a class="btn" href="https://drive.google.com/uc?export=download&amp;id=1p2w3w43RQnoBMISnorCoXQucVMd63P-X">Download the Free Gmail Inbox Reset Guide (PDF)</a>
+  </header>
+
+  <article style="max-width: 68ch; margin-inline: auto;">
+    <h2>How 70,000 emails led me to build a 30-day Gmail inbox</h2>
+    <p>I started by cleaning up my Downloads folder. Once that looked better, I moved on to my desktop. Then I opened Gmail.</p>
+    <p>I had about 70,000 emails. I wanted my inbox to feel usable again, so I started with the obvious stuff: promotions, marketing emails, and notifications I had no reason to keep looking at. I liked the idea of archiving them because I could still find them later. And honestly, part of me still wanted to be able to look up a good deal if I remembered seeing one.</p>
+    <p>After several rounds of cleanup, I still had more than 2,000 unread emails. Going sender by sender was taking forever. And every day, more mail came in.</p>
+    <p>The email that finally made me rethink the whole thing was a Google sign-in alert. That’s something I want to see when it happens. But does it need to sit in my inbox a month later? The same went for old verification codes, delivery updates, and plenty of other messages that were useful for about five minutes.</p>
+    <p>I’d used Gmail filters before. They worked well for dealing with new mail from a specific sender, but I wanted one rule that would apply as messages aged. <strong>What if my inbox just showed the last 30 days, plus anything I’d starred to keep around?</strong></p>
+
+    <h2>Why I used Google Apps Script</h2>
+    <p>I could search Gmail for older messages and archive them in bulk. That would take care of the backlog in one sitting. I wanted the same cleanup to happen tomorrow, next week, and six months from now without having to remember to do it myself.</p>
+    <p>So I set up a small Google Apps Script. On a daily schedule, it looks for messages in my inbox that are older than 30 days and aren’t starred. It archives those messages and adds a label so I can see what the script moved. The script and its schedule live in my Google account. Once I set them up, the daily cleanup runs without ChatGPT or an AI subscription.</p>
+    <p>My first version also kept anything marked <strong>Important</strong>. That sounded reasonable until I looked at what was still hanging around. Gmail had decided some old Xfinity and VASA Fitness emails were important based on past activity. I understood why Gmail had flagged them, but I wouldn’t have chosen to keep them in my inbox.</p>
+    <p>So I dropped that exception. Now I use the star for one simple thing: <strong>keep this in my inbox past 30 days.</strong></p>
+
+    <h2>What happens to the archived emails?</h2>
+    <p>They’re still in Gmail. If I need an old receipt or remember something a person sent me, I search by sender, subject, or keyword like I always have. If I want to browse only archived mail, I type <code>in:archive</code> into Gmail’s search bar. I can also open the <strong>Archived Inbox Backlog</strong> label to see the messages the script moved.</p>
+    <p>That’s what made the whole thing click for me. I could get years of email out of my daily view while keeping it available when I needed it. And when an email comes in that I know I’ll need next month, I just star it.</p>
+    <p>The free one-page guide includes the exact script to copy and paste, plus step-by-step instructions for setting it up, running it the first time, and scheduling the daily cleanup. I wrote it for someone who’s never opened Google Apps Script before.</p>
+  </article>
+</main>
